@@ -1,0 +1,7 @@
+.form-group {
+    padding: 10px;
+}
+.form-group label {
+    width: 20%;
+    float: left;
+}

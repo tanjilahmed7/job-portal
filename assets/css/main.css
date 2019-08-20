@@ -1,0 +1,485 @@
+.tab-slider--trigger input[name="reg_type"] {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    opacity: 0.1;
+}
+.form-field__control.error input {
+    border-color: red;
+}
+.row.error-box {
+
+    border: 3px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 0px auto 25px;
+}
+.row.error-box p {
+    color: red;
+    font-weight: bold;
+    margin: 0px;
+}
+.update-profile .img img {
+    max-width: 100px;
+}
+
+.p-image-area {
+    width: 100%;
+    display: flex;
+    padding: 40px 0 0 70px;
+}
+.p-image-area .image { 
+    padding-right: 20px;
+}
+.p-image-area .profile {
+    padding-right: 20px;
+}
+.p-image-area .profile span.job_type {
+    font-size: 12px;
+    color: blue;
+    font-weight: 700;
+}
+.p-image-area .profile h4{
+    margin-top: 5px;
+}
+
+.profile-discription {
+    float: left;
+    width: 100%;
+    margin-left: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-discription span {
+    background: green;
+    color: #fff;
+    padding: 4px 10px 3px 10px;
+    text-transform: capitalize;
+}
+
+.profile-discription article {
+    margin-top: 20px;
+}
+
+.profile-discription p {
+    width: 90%;
+}
+
+
+.published .action-button {
+    background: #4258fb;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px 5px;
+}
+.skiles-box {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.skiles-box span.item {
+    border: 1px solid #ddd;
+    padding: 8px 30px 8px 15px;
+    margin-right: 5px;
+    border-radius: 18px;
+    display: inline-block;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.skiles-box span.item span.close {
+    position: absolute;
+    right: 12px;
+    top: 11px;
+    font-size: 16px;
+    cursor: pointer;
+}
+fieldset.skill-fields label.form-field__label {
+    position: relative;
+}
+
+.required {
+    color: red;
+}
+.members-list .members .image {
+    padding-right: 0px !important;
+    margin-right: 25px;
+    height: 65px;
+    width: 65px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.members-list .members .image img {
+    width: 65px;
+    height: 65px;
+}
+
+.member-list-row {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.update-profile .img {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 100px; 
+    margin-right: 25px;
+}
+.update-profile .img img {
+    max-width: 100px;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.form-field  .form-field__label { 
+    padding: 18px 12px 0 0px !important;
+    font-size: 14px !important;
+    color: #888;
+    left: auto;
+}
+.form-field { 
+    margin-bottom: 30px !important;
+}
+.date-section-dropdown.experience-warp {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.date-section-dropdown.experience-warp label#experience {
+    color: #888;
+    font-size: 14px;
+}
+.date-section-dropdown.experience-warp select {
+    width: 100%;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+}
+span.error-msg {
+    color: red;
+    font-size: 13px;
+    text-transform: capitalize !important;
+    padding: 10px 1px;
+    display: block;
+}
+.form-field .form-field__input, .form-field .form-field__textarea {
+    padding-left: 0px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+    -webkit-box-shadow:none !important;
+    box-shadow: none !important;
+}
+.update-btn {
+    position: relative;
+}
+.update-btn input#profile-image {
+    width: 100px;
+    height: 45px;
+    opacity: 0;
+    z-index: 1;
+}
+.update-btn span.upload-preview-btn {
+    position: absolute;
+    left: 0px;
+    top: 38px;
+    width: 100px;
+    height: 45px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #888;
+    border-radius: 46px;
+    letter-spacing: 1px;
+    z-index: -1;
+}
+fieldset .form-pagination a.update.user-profile-submit, fieldset .form-pagination input.action-button {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400 !important;
+    display: block;
+    padding: 12px 25px !important;
+    height: 45px;
+}
+.work-experience {
+    display: block;
+    width: 100%;
+}
+.form-field--is-active .form-field__control::after { 
+    transform: none !important;
+    border: none !important;
+}
+.form-field__control::after { 
+    left: 38px; 
+}
+.top-story-tellers .top-item .image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 0px !important;
+    margin-right: 17px;
+}
+.top-story-tellers .top-item .image img {
+    width: 90px;
+    height: 100%;
+}
+.member-profile .avater {
+    width: 345px;
+    height: 345px;
+    overflow: hidden;
+    border-radius: 192px;
+    text-align: center;
+    padding: 0px;
+}
+.member-profile .avater img {
+    width: 100%;
+    height: 100%;
+}
+.profile-full-view .social-list {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin: 30px 0 60px 0;
+}
+.profile-full-view .social-list .icon {
+    color: #000;
+    font-size: 22px;
+    margin-right: 20px;
+}
+.login-user-menu .user-thumb img {
+    width: 100% !important;
+    height: 100% !important; 
+}
+.login-form a.btn-theme-btn.login-submit {
+    padding: 10px 45px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.container-fluid.notifaction {
+    width: 100%;
+    left: 0px;
+    right: 00px;
+    display: block;
+    z-index: 111;
+}
+.update-profile.flex-container {
+    margin-bottom: 30px;
+}
+#progressbar li {
+    cursor: pointer;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+    position: relative;
+}
+ul#progressbar li.active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    left: 0px;
+    right: 0px;
+    top: auto;
+    bottom: -2px;
+    z-index: 1;
+}
+#progressbar { 
+    margin: 0px auto;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    overflow: visible !important;
+}
+.manage-menu {
+    border-bottom: 2px solid #eee !important; 
+}
+.work-experience .items h2 {
+    padding: 0px;
+    color: #000;
+}
+.work-experience .items p {
+    font-size: 14px;
+    color: #000;
+}
+.work-experience .items span {
+    font-size: 12px;
+    color: #888;
+}
+.work-experience .items {
+    padding-bottom: 0px;
+}
+.account-settings-section  a.add-view-btn { 
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+input.styled-checkbox {
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+input.styled-checkbox ~ label::after {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 4px;
+    width: 6px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+input.styled-checkbox:checked ~ label::after{
+
+}
+.styled-checkbox:checked ~ label:before { 
+    background: #000 !important;
+}
+input.styled-checkbox:focus {
+    border: none;
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+    opacity: 0 !important;
+}
+.social-profiles .icon i.fa {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    text-align: center; 
+}
+.verfiy-message .text-area {
+    flex-flow: column !important;
+}
+.verfiy-message .text-area p {
+    margin: 0px;
+}
+.verfiy-message .text-area p a {
+    text-transform: uppercase;
+}
+
+.profile-full-view { 
+    display: none;
+}
+a.btn-theme-btn.view-full-profile {
+    font-size: 13px;
+    padding: 11px 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.profile-full-view article span {
+    font-weight: 600;
+    display: block;
+}
+.profile-full-view article p {
+    display: block;
+    clear: both;
+    font-size: 14px;
+    line-height: 28px;
+    color: #888;
+}
+a.btn-theme-btn.view-full-profile i.fa {
+    font-size: 15px;
+    margin-left: 2px;
+}
+.empty-result {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.empty-result h2 {
+    text-align: center;
+}
+#notify-icon {
+    position: relative;
+}
+#notify-icon span.count {
+    position: absolute;
+    background: red;
+    height: 15px;
+    width: 15px;
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50px;
+    right: -7px;
+    top: -2px;
+}
+.notify ul li .notify-area .image {
+    padding-right: 12px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 1px solid #ffff;
+    padding: 0px !important;
+    margin-right: 15px;
+}
+.notify ul li .notify-area .image img {
+    width: 100%;
+    height: 100%;
+}
+.all-notifications {
+    width: 50%;
+    margin: 0px auto;
+}
+.single-notifications {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+}
+.single-notifications .image {
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.download-resume input[type="submit"] {
+    padding: 9px 25px 9px 25px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    border: 2px solid #4258fb !important;
+    color: #4258fb !important;
+    font-weight: 700;
+    background: none !important;
+}
+.filter-dropdown input[type=checkbox] {
+    z-index: 9999;
+    opacity: 0;
+    top: 5px;
+    height: 20px;
+    margin: 0px;
+    left: -2px;
+    width: 20px;
+    border-radius: 3px;
+}
+.update-profile.flex-container .update-btn p.error {
+    color: red;
+}
+#notify-icon span.count { 
+    padding: 0px;
+    line-height: 15px;
+}
